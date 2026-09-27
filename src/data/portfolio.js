@@ -2,8 +2,8 @@
 // PERSONAL INFO
 // ============================
 export const personal = {
-  name: "Satyam Kumar Chaurasiya",
-  firstName: "Satyam",
+  name: "Satyam Anand",
+  firstName: "Satyam Anand",
   role: "MERN-Stack Developer & UI/UX Designer",
   tagline: "I create magic with code. Passionate. Purposeful.",
   email: "satyamkr.16362@gmail.com",        // ⬅️ replace with yours

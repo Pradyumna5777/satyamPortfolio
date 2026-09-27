@@ -55,7 +55,7 @@ export default function Contact() {
       </div>
 
       <div className="text-center mt-20 text-xs md:text-sm text-white/40">
-        © {new Date().getFullYear()} Satyam Kumar Chaurasiya — Built with React &amp; Tailwind
+        © {new Date().getFullYear()} Satyam Anand — Built with React &amp; Tailwind
       </div>
     </div>
   );
