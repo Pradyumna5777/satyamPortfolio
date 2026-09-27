@@ -89,6 +89,27 @@ export const techIcons = {
 // ============================
 export const projects = [
   {
+  title: "Booking System — Client Demo",
+  year: "2026",
+  category: "Full Stack",
+  company: "Client Work",
+  role: "Full Stack Developer",
+  description:
+    "A fully functional booking platform built for a client, featuring real-time availability, secure form submissions, and a clean, conversion-focused UI. Deployed and live in production — ready for client demonstrations.",
+  highlights: [
+    "Real-time booking & availability",
+    "Secure form submission flow",
+    "Fully responsive across all devices",
+    "Optimized for speed & conversions",
+    "Deployed live on Vercel",
+    "Clean, modern UI/UX",
+  ],
+  tech: ["React.js", "TailwindCSS"],
+  code: "", // private client code
+  live: "https://booking-demo-self.vercel.app/",
+  featured: true,
+},
+  {
     title: "Thermo Packers — Company Website",
     year: "2025",
     category: "Full Stack",
