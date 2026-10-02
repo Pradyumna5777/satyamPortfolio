@@ -89,6 +89,73 @@ export const techIcons = {
 // ============================
 export const projects = [
   {
+  title: "The Grand Aurelia — Luxury Hotel Website",
+  year: "2026",
+  category: "Frontend",
+  company: "Client Demo",
+  role: "Frontend Developer · UI Designer",
+  description:
+    "A premium, fully responsive single-page-hotel website built for a client demo. Features multi-page routing, glassmorphism UI, cinematic scroll animations, image-rich galleries with keyboard-navigable lightbox, and a complete booking flow with live GST calculation in Indian Rupees. Deployed live on Vercel.",
+  highlights: [
+    "Multi-page SPA with React Router (Home, Rooms, Room Details, Amenities, Gallery, About, Contact, Booking)",
+    "Glassmorphism + champagne-gold luxury design system",
+    "Scroll-triggered animations, parallax hero, animated counters (Framer Motion)",
+    "Currency toggle with ₹ INR formatting + live 12% GST calculation",
+    "Image lightbox with keyboard navigation (← → · Esc) and thumbnail strip",
+    "Bento-grid gallery with category filters and animated gold pill",
+    "Custom SVG monogram logo + favicon (gold 'A' with crown motif)",
+    "Comfortaa + Gruppo + Indie Flower typography pairing",
+    "Auto scroll-to-top on route change + floating back-to-top button",
+    "Fully responsive — mobile-first, tested 320px → 4K",
+    "Lazy-loaded images, code-split routes, optimized for Lighthouse 90+",
+    "Deployed live on Vercel with auto-deploy on git push",
+  ],
+  tech: [
+    "React.js",
+    "Vite",
+    "TailwindCSS v4",
+    "Framer Motion",
+    "React Router v6",
+    "React Icons",
+  ],
+  code: "", // client demo — code not public
+  live: "https://grand-aurelia-hotel.vercel.app/", // ⬅️ replace with your actual Vercel URL
+  featured: true,
+},
+{
+  title: "Madhuri Nidan Kendra — Clinic Website",
+  year: "2026",
+  category: "Full Stack",
+  company: "Madhuri Nidan Kendra",
+  role: "Full Stack Developer · UI Designer",
+  description:
+    "The official website for Madhuri Nidan Kendra, a multi-specialty medical clinic in Hasanpura, Siwan (Bihar). Built as a fully responsive, SEO-optimized site featuring a doctors showcase, service catalog, patient testimonials, FAQ, and an online appointment booking flow — designed to convert local search traffic into booked patients. Deployed live on Vercel.",
+  highlights: [
+    "SEO-optimized for local search ('Top Doctors in Hasanpura, Siwan')",
+    "Doctors showcase with qualifications, experience, and specializations",
+    "Service catalog: operations, child vaccination, health checkups, lab tests, emergency, consultation",
+    "Patient testimonials grid with star ratings",
+    "FAQ accordion addressing common patient questions",
+    "Online appointment booking flow with phone/visit alternatives",
+    "Clinic gallery showcasing facilities and environment",
+    "Fully responsive — mobile-first design for local patient base",
+    "Emergency contact call-to-action prominently placed",
+    "Deployed live on Vercel",
+  ],
+  tech: [
+    "React.js",
+    "Vite",
+    "TailwindCSS",
+    "React Router",
+    "Framer Motion",
+    "React Icons",
+  ],
+  code: "", // private client code
+  live: "https://madhuri-nidan-kendra.vercel.app/",
+  featured: true,
+  image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80",
+},
+  {
   title: "Booking System — Client Demo",
   year: "2026",
   category: "Full Stack",
